@@ -1,5 +1,13 @@
 # @robot-inventor/ts-utils
 
+## 0.1.1
+
+### Patch Changes
+
+-   [#9](https://github.com/Robot-Inventor/ts-utils/pull/9) [`d89e63d`](https://github.com/Robot-Inventor/ts-utils/commit/d89e63db992f6a155a5a16d62b75d3e35e4881aa) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - docs: add documentations
+
+-   [#8](https://github.com/Robot-Inventor/ts-utils/pull/8) [`88b44c0`](https://github.com/Robot-Inventor/ts-utils/commit/88b44c0665917ecb9d36bbc7ae1a8e1a20e30d2b) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: add `main` and `types` fields to `package.json`
+
 ## 0.1.0
 
 ### Minor Changes

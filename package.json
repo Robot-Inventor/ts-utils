@@ -1,6 +1,6 @@
 {
   "name": "@robot-inventor/ts-utils",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "My TypeScript utilities",
   "type": "module",
   "main": "./dist/index.js",

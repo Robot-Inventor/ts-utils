@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.4.0
+
+### Minor Changes
+
+-   [#20](https://github.com/Robot-Inventor/ts-utils/pull/20) [`7888978`](https://github.com/Robot-Inventor/ts-utils/commit/78889789a64b229c5e085b6a9560cc46d4af9316) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - feat: add `isNonEmptyArray()` function
+
 ## 0.3.1
 
 ### Patch Changes

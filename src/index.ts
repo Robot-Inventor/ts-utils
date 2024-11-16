@@ -21,7 +21,9 @@ const isValidUrl = (value: string, protocol?: string | string[]): null | URL => 
         const url = new URL(value);
 
         if (protocol) {
-            const protocols = Array.isArray(protocol) ? protocol : [protocol];
+            let protocols = Array.isArray(protocol) ? protocol : [protocol];
+            // eslint-disable-next-line no-magic-numbers
+            protocols = protocols.map((prt) => (prt.endsWith(":") ? prt.slice(0, -1) : prt));
             // eslint-disable-next-line no-magic-numbers
             if (!protocols.includes(url.protocol.slice(0, -1))) {
                 return null;

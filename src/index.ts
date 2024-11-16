@@ -36,12 +36,14 @@ const isValidUrl = (value: string, protocol?: string | string[]): null | URL => 
     }
 };
 
+type NonEmptyArray<T> = [T, ...T[]];
+
 /**
  * Check if the value is a non-empty array.
  * @param value The value to check.
  * @returns Returns `true` if the value is a non-empty array, otherwise `false`.
  */
 // eslint-disable-next-line no-magic-numbers
-const isNonEmptyArray = <T>(value: T[]): value is [T, ...T[]] => Array.isArray(value) && value.length > 0;
+const isNonEmptyArray = <T>(value: T[]): value is NonEmptyArray<T> => Array.isArray(value) && value.length > 0;
 
-export { isPlainObject, isValidUrl, isNonEmptyArray };
+export { isPlainObject, isValidUrl, type NonEmptyArray, isNonEmptyArray };

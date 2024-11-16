@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.5.0
+
+### Minor Changes
+
+-   [#22](https://github.com/Robot-Inventor/ts-utils/pull/22) [`56fe51a`](https://github.com/Robot-Inventor/ts-utils/commit/56fe51ad542b299d6dc3601f2eea5a2228aeacc5) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - feat: add `NonEmptyArray` type
+
 ## 0.4.0
 
 ### Minor Changes

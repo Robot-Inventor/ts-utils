@@ -1,8 +1,8 @@
-**@robot-inventor/ts-utils v0.3.0** • **Docs**
+**@robot-inventor/ts-utils v0.3.1** • **Docs**
 
 ***
 
-# @robot-inventor/ts-utils v0.3.0
+# @robot-inventor/ts-utils v0.3.1
 
 ## Functions
 

@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.3.0
+
+### Minor Changes
+
+-   [#14](https://github.com/Robot-Inventor/ts-utils/pull/14) [`5b8e789`](https://github.com/Robot-Inventor/ts-utils/commit/5b8e7899204a94a838634f0660e630bef4435d6a) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - feat: add an optional `protocol` argument to `isValidUrl()` function
+
 ## 0.2.0
 
 ### Minor Changes

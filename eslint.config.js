@@ -1,3 +1,10 @@
 import { eslintConfig } from "@robot-inventor/eslint-config";
 
-export default eslintConfig;
+export default [
+    ...eslintConfig,
+    {
+        ignores: [
+            "**/*.test.ts"
+        ]
+    }
+];

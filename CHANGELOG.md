@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.3.1
+
+### Patch Changes
+
+-   [#16](https://github.com/Robot-Inventor/ts-utils/pull/16) [`319cd9c`](https://github.com/Robot-Inventor/ts-utils/commit/319cd9c3591b98c39369340a04ff7626345fb9f9) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - feat: normalize protocol strings in `isValidUrl()` function
+
 ## 0.3.0
 
 ### Minor Changes

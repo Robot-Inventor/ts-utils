@@ -1,8 +1,12 @@
-**@robot-inventor/ts-utils v0.4.0** • **Docs**
+**@robot-inventor/ts-utils v0.5.0** • **Docs**
 
 ***
 
-# @robot-inventor/ts-utils v0.4.0
+# @robot-inventor/ts-utils v0.5.0
+
+## Type Aliases
+
+- [NonEmptyArray](type-aliases/NonEmptyArray.md)
 
 ## Functions
 

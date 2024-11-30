@@ -52,4 +52,13 @@ const isNonEmptyArray = <T>(value: T[]): value is NonEmptyArray<T> => Array.isAr
 // eslint-disable-next-line no-use-before-define
 type AssertType<T extends Expected, Expected> = T;
 
-export { isPlainObject, isValidUrl, type NonEmptyArray, isNonEmptyArray, type AssertType };
+/**
+ * Ensures that the `_target` type is `Expected`.
+ * Always returns `true` at runtime. This function solely affects type checking.
+ * @param _target The target value to check.
+ * @returns Always returns `true`.
+ */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-unnecessary-type-parameters
+const assertType = <Expected>(_target: Expected): true => true;
+
+export { isPlainObject, isValidUrl, type NonEmptyArray, isNonEmptyArray, type AssertType, assertType };

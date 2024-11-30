@@ -46,4 +46,10 @@ type NonEmptyArray<T> = [T, ...T[]];
 // eslint-disable-next-line no-magic-numbers
 const isNonEmptyArray = <T>(value: T[]): value is NonEmptyArray<T> => Array.isArray(value) && value.length > 0;
 
-export { isPlainObject, isValidUrl, type NonEmptyArray, isNonEmptyArray };
+/**
+ * Asserts that the type `T` extends the `Expected` type and returns `T`.
+ */
+// eslint-disable-next-line no-use-before-define
+type AssertType<T extends Expected, Expected> = T;
+
+export { isPlainObject, isValidUrl, type NonEmptyArray, isNonEmptyArray, type AssertType };

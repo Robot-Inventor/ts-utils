@@ -5,6 +5,8 @@ type TestNonEmptyArray = AssertType<NonEmptyArray<string>, string[]>;
 type TestNonEmptyArray2 = AssertType<NonEmptyArray<number>, number[]>;
 // @ts-expect-error
 type TestNonEmptyArray3 = AssertType<NonEmptyArray<string>, boolean[]>;
+// @ts-expect-error
+type TestNonEmptyArray4 = AssertType<NonEmptyArray<string>, []>;
 
 type TextAssertType = AssertType<string, string>;
 type TextAssertType2 = AssertType<true, boolean>;

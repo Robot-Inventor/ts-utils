@@ -4,7 +4,8 @@ export default [
     ...eslintConfig,
     {
         ignores: [
-            "**/*.test.ts"
+            "**/*.test.ts",
+            "**/*.typetest.ts"
         ]
     }
 ];

@@ -1,3 +1,7 @@
 {
-    "extends": "@robot-inventor/tsconfig-base/tsc.json"
+    "extends": "@robot-inventor/tsconfig-base/tsc.json",
+    "exclude": [
+        "./src/**/*.test.ts",
+        "./src/**/*.typetest.ts"
+    ]
 }

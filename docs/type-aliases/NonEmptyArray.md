@@ -1,8 +1,8 @@
-[**@robot-inventor/ts-utils v0.5.0**](../README.md) • **Docs**
+[**@robot-inventor/ts-utils v0.6.0**](../README.md) • **Docs**
 
 ***
 
-[@robot-inventor/ts-utils v0.5.0](../README.md) / NonEmptyArray
+[@robot-inventor/ts-utils v0.6.0](../README.md) / NonEmptyArray
 
 # Type Alias: NonEmptyArray\<T\>
 
@@ -14,4 +14,4 @@
 
 ## Defined in
 
-[index.ts:39](https://github.com/Robot-Inventor/ts-utils/blob/56fe51ad542b299d6dc3601f2eea5a2228aeacc5/src/index.ts#L39)
+[index.ts:39](https://github.com/Robot-Inventor/ts-utils/blob/95514c0c002d6599c51a437e5ecb114ed5b5655b/src/index.ts#L39)

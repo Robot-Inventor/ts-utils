@@ -1,8 +1,8 @@
-[**@robot-inventor/ts-utils v0.6.0**](../README.md) • **Docs**
+[**@robot-inventor/ts-utils v0.6.1**](../README.md) • **Docs**
 
 ***
 
-[@robot-inventor/ts-utils v0.6.0](../README.md) / assertType
+[@robot-inventor/ts-utils v0.6.1](../README.md) / assertType
 
 # Function: assertType()
 
@@ -29,4 +29,4 @@ Always returns `true`.
 
 ## Defined in
 
-[index.ts:62](https://github.com/Robot-Inventor/ts-utils/blob/95514c0c002d6599c51a437e5ecb114ed5b5655b/src/index.ts#L62)
+[index.ts:66](https://github.com/Robot-Inventor/ts-utils/blob/ad578980a74251c5f6891ef567f8014ddb560d8a/src/index.ts#L66)

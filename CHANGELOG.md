@@ -1,5 +1,13 @@
 # @robot-inventor/ts-utils
 
+## 0.6.1
+
+### Patch Changes
+
+- [#35](https://github.com/Robot-Inventor/ts-utils/pull/35) [`144df4f`](https://github.com/Robot-Inventor/ts-utils/commit/144df4fd95c851c29c220af7572d7086fb37603e) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - feat: add JSDoc comments for `NonEmptyArray` type
+
+- [#36](https://github.com/Robot-Inventor/ts-utils/pull/36) [`ad57898`](https://github.com/Robot-Inventor/ts-utils/commit/ad578980a74251c5f6891ef567f8014ddb560d8a) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update vulnerable packages
+
 ## 0.6.0
 
 ### Minor Changes

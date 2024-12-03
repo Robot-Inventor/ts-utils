@@ -36,6 +36,10 @@ const isValidUrl = (value: string, protocol?: string | string[]): null | URL => 
     }
 };
 
+/**
+ * Represents an array with at least one element.
+ * @param T - The type of the elements in the array.
+ */
 type NonEmptyArray<T> = [T, ...T[]];
 
 /**

@@ -1,8 +1,8 @@
-[**@robot-inventor/ts-utils v0.6.1**](../README.md) • **Docs**
+[**@robot-inventor/ts-utils v0.6.2**](../README.md)
 
 ***
 
-[@robot-inventor/ts-utils v0.6.1](../README.md) / isPlainObject
+[@robot-inventor/ts-utils](../README.md) / isPlainObject
 
 # Function: isPlainObject()
 
@@ -12,7 +12,9 @@ Check if the value is a plain object.
 
 ## Parameters
 
-• **value**: `unknown`
+### value
+
+`unknown`
 
 The value to check.
 
@@ -32,4 +34,4 @@ isPlainObject(null) // false
 
 ## Defined in
 
-[index.ts:10](https://github.com/Robot-Inventor/ts-utils/blob/ad578980a74251c5f6891ef567f8014ddb560d8a/src/index.ts#L10)
+[index.ts:10](https://github.com/Robot-Inventor/ts-utils/blob/3436114e22e41a691f90444f31cbf897b04906b5/src/index.ts#L10)

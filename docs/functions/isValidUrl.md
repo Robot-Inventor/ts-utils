@@ -1,8 +1,8 @@
-[**@robot-inventor/ts-utils v0.6.1**](../README.md) • **Docs**
+[**@robot-inventor/ts-utils v0.6.2**](../README.md)
 
 ***
 
-[@robot-inventor/ts-utils v0.6.1](../README.md) / isValidUrl
+[@robot-inventor/ts-utils](../README.md) / isValidUrl
 
 # Function: isValidUrl()
 
@@ -12,13 +12,17 @@ Check if the value is a valid URL.
 
 ## Parameters
 
-• **value**: `string`
+### value
+
+`string`
 
 The value to check.
 
-• **protocol?**: `string` \| `string`[]
+### protocol?
 
 Optional protocol(s) to check if the URL starts with.
+
+`string` | `string`[]
 
 ## Returns
 
@@ -28,4 +32,4 @@ Returns a URL object if the value is a valid URL and matches the protocol(s), ot
 
 ## Defined in
 
-[index.ts:19](https://github.com/Robot-Inventor/ts-utils/blob/ad578980a74251c5f6891ef567f8014ddb560d8a/src/index.ts#L19)
+[index.ts:19](https://github.com/Robot-Inventor/ts-utils/blob/3436114e22e41a691f90444f31cbf897b04906b5/src/index.ts#L19)

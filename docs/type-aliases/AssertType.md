@@ -1,8 +1,8 @@
-[**@robot-inventor/ts-utils v0.6.1**](../README.md) • **Docs**
+[**@robot-inventor/ts-utils v0.6.2**](../README.md)
 
 ***
 
-[@robot-inventor/ts-utils v0.6.1](../README.md) / AssertType
+[@robot-inventor/ts-utils](../README.md) / AssertType
 
 # Type Alias: AssertType\<T, Expected\>
 
@@ -18,4 +18,4 @@ Asserts that the type `T` extends the `Expected` type and returns `T`.
 
 ## Defined in
 
-[index.ts:57](https://github.com/Robot-Inventor/ts-utils/blob/ad578980a74251c5f6891ef567f8014ddb560d8a/src/index.ts#L57)
+[index.ts:57](https://github.com/Robot-Inventor/ts-utils/blob/3436114e22e41a691f90444f31cbf897b04906b5/src/index.ts#L57)

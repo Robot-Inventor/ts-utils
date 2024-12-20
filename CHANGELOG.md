@@ -1,5 +1,13 @@
 # @robot-inventor/ts-utils
 
+## 0.6.2
+
+### Patch Changes
+
+- [#42](https://github.com/Robot-Inventor/ts-utils/pull/42) [`d3b4aec`](https://github.com/Robot-Inventor/ts-utils/commit/d3b4aec424a273cdf270e42d5798551bfcc3a9d4) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update vulnerable dependencies
+
+- [#45](https://github.com/Robot-Inventor/ts-utils/pull/45) [`e406cd1`](https://github.com/Robot-Inventor/ts-utils/commit/e406cd15c464dad400f8171fbebf72444846f9eb) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update typedoc and typedoc-plugin-markdown
+
 ## 0.6.1
 
 ### Patch Changes

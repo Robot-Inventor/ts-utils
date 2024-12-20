@@ -1,8 +1,8 @@
-[**@robot-inventor/ts-utils v0.6.1**](../README.md) • **Docs**
+[**@robot-inventor/ts-utils v0.6.2**](../README.md)
 
 ***
 
-[@robot-inventor/ts-utils v0.6.1](../README.md) / isNonEmptyArray
+[@robot-inventor/ts-utils](../README.md) / isNonEmptyArray
 
 # Function: isNonEmptyArray()
 
@@ -16,7 +16,9 @@ Check if the value is a non-empty array.
 
 ## Parameters
 
-• **value**: `T`[]
+### value
+
+`T`[]
 
 The value to check.
 
@@ -28,4 +30,4 @@ Returns `true` if the value is a non-empty array, otherwise `false`.
 
 ## Defined in
 
-[index.ts:51](https://github.com/Robot-Inventor/ts-utils/blob/ad578980a74251c5f6891ef567f8014ddb560d8a/src/index.ts#L51)
+[index.ts:51](https://github.com/Robot-Inventor/ts-utils/blob/3436114e22e41a691f90444f31cbf897b04906b5/src/index.ts#L51)

@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.7.0
+
+### Minor Changes
+
+- [#75](https://github.com/Robot-Inventor/ts-utils/pull/75) [`9a747f5`](https://github.com/Robot-Inventor/ts-utils/commit/9a747f55cf7fcfaad244dbba5c7c0d067c049e8b) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - refactor: deprecate `isValidUrl()`
+
 ## 0.6.2
 
 ### Patch Changes

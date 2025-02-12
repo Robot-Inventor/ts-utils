@@ -1,12 +1,14 @@
-[**@robot-inventor/ts-utils v0.6.2**](../README.md)
+[**@robot-inventor/ts-utils v0.7.0**](../README.md)
 
 ***
 
 [@robot-inventor/ts-utils](../README.md) / isValidUrl
 
-# Function: isValidUrl()
+# Function: ~~isValidUrl()~~
 
 > **isValidUrl**(`value`, `protocol`?): `null` \| `URL`
+
+Defined in: [index.ts:20](https://github.com/Robot-Inventor/ts-utils/blob/9a747f55cf7fcfaad244dbba5c7c0d067c049e8b/src/index.ts#L20)
 
 Check if the value is a valid URL.
 
@@ -30,6 +32,6 @@ Optional protocol(s) to check if the URL starts with.
 
 Returns a URL object if the value is a valid URL and matches the protocol(s), otherwise `null`.
 
-## Defined in
+## Deprecated
 
-[index.ts:19](https://github.com/Robot-Inventor/ts-utils/blob/3436114e22e41a691f90444f31cbf897b04906b5/src/index.ts#L19)
+Use [`URL.parse()`](https://developer.mozilla.org/docs/Web/API/URL/parse_static) instead.

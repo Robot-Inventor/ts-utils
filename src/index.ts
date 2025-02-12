@@ -12,6 +12,7 @@ const isPlainObject = (value: unknown): value is Record<string, unknown> =>
 
 /**
  * Check if the value is a valid URL.
+ * @deprecated Use [`URL.parse()`](https://developer.mozilla.org/docs/Web/API/URL/parse_static) instead.
  * @param value The value to check.
  * @param protocol Optional protocol(s) to check if the URL starts with.
  * @returns Returns a URL object if the value is a valid URL and matches the protocol(s), otherwise `null`.

@@ -1,8 +1,8 @@
-**@robot-inventor/ts-utils v0.7.0**
+**@robot-inventor/ts-utils v0.7.1**
 
 ***
 
-# @robot-inventor/ts-utils v0.7.0
+# @robot-inventor/ts-utils v0.7.1
 
 ## Type Aliases
 

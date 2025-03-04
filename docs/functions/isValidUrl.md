@@ -1,4 +1,4 @@
-[**@robot-inventor/ts-utils v0.7.0**](../README.md)
+[**@robot-inventor/ts-utils v0.7.1**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isValidUrl**(`value`, `protocol`?): `null` \| `URL`
 
-Defined in: [index.ts:20](https://github.com/Robot-Inventor/ts-utils/blob/9a747f55cf7fcfaad244dbba5c7c0d067c049e8b/src/index.ts#L20)
+Defined in: [index.ts:20](https://github.com/Robot-Inventor/ts-utils/blob/ad2e1d60c0ccfd090c9dc7d5610dfc4951fff7dc/src/index.ts#L20)
 
 Check if the value is a valid URL.
 

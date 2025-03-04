@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.7.1
+
+### Patch Changes
+
+- [#89](https://github.com/Robot-Inventor/ts-utils/pull/89) [`19acaef`](https://github.com/Robot-Inventor/ts-utils/commit/19acaef646eb1a61d192101c4da3b14c44b7c26a) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typescript to v5.8.2
+
 ## 0.7.0
 
 ### Minor Changes

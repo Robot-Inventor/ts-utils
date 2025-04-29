@@ -1,5 +1,15 @@
 # @robot-inventor/ts-utils
 
+## 0.8.0
+
+### Minor Changes
+
+- [#123](https://github.com/Robot-Inventor/ts-utils/pull/123) [`d4e0c4d`](https://github.com/Robot-Inventor/ts-utils/commit/d4e0c4df38cdc3ad6393e189f7c5c80c047be91b) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: remove deprecated `isValidUrl()` function
+
+### Patch Changes
+
+- [#125](https://github.com/Robot-Inventor/ts-utils/pull/125) [`072f537`](https://github.com/Robot-Inventor/ts-utils/commit/072f5375cb5de8b5f5bbd644d5026c0dc307f8d7) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: add examples to the documentation
+
 ## 0.7.1
 
 ### Patch Changes

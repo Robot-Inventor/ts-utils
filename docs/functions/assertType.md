@@ -1,4 +1,4 @@
-[**@robot-inventor/ts-utils v0.7.1**](../README.md)
+[**@robot-inventor/ts-utils v0.8.0**](../README.md)
 
 ***
 
@@ -8,14 +8,16 @@
 
 > **assertType**\<`Expected`\>(`_target`): `true`
 
-Defined in: [index.ts:67](https://github.com/Robot-Inventor/ts-utils/blob/ad2e1d60c0ccfd090c9dc7d5610dfc4951fff7dc/src/index.ts#L67)
+Defined in: [index.ts:56](https://github.com/Robot-Inventor/ts-utils/blob/072f5375cb5de8b5f5bbd644d5026c0dc307f8d7/src/index.ts#L56)
 
 Ensures that the `_target` type is `Expected`.
 Always returns `true` at runtime. This function solely affects type checking.
 
 ## Type Parameters
 
-• **Expected**
+### Expected
+
+`Expected`
 
 ## Parameters
 
@@ -30,3 +32,10 @@ The target value to check.
 `true`
 
 Always returns `true`.
+
+## Example
+
+```ts
+assertType<number>(1); // No error
+assertType<string>(1); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+```

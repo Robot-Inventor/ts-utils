@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.8.1
+
+### Patch Changes
+
+- [#142](https://github.com/Robot-Inventor/ts-utils/pull/142) [`1e779ce`](https://github.com/Robot-Inventor/ts-utils/commit/1e779ceeea0ad4abc129cfdd29588771e375c3e9) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: remove unused eslint-disable directive
+
 ## 0.8.0
 
 ### Minor Changes

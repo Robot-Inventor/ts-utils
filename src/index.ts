@@ -40,7 +40,6 @@ const isNonEmptyArray = <T>(value: T[]): value is NonEmptyArray<T> => Array.isAr
  * type Assertion1 = AssertType<1, number>; // No error
  * type Assertion2 = AssertType<1, string>; // Error: Type 'number' does not satisfy the constraint 'string'.
  */
-// eslint-disable-next-line no-use-before-define
 type AssertType<T extends Expected, Expected> = T;
 
 /**

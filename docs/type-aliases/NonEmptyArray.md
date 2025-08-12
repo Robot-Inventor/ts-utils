@@ -1,4 +1,4 @@
-[**@robot-inventor/ts-utils v0.8.1**](../README.md)
+[**@robot-inventor/ts-utils v0.8.2**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **NonEmptyArray**\<`T`\> = \[`T`, `...T[]`\]
 
-Defined in: [index.ts:24](https://github.com/Robot-Inventor/ts-utils/blob/1e779ceeea0ad4abc129cfdd29588771e375c3e9/src/index.ts#L24)
+Defined in: [index.ts:24](https://github.com/Robot-Inventor/ts-utils/blob/98126306597324cdc3dec40a0d165e03cfe69520/src/index.ts#L24)
 
 Represents an array with at least one element.
 

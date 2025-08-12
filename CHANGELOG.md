@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.8.2
+
+### Patch Changes
+
+- [#149](https://github.com/Robot-Inventor/ts-utils/pull/149) [`9812630`](https://github.com/Robot-Inventor/ts-utils/commit/98126306597324cdc3dec40a0d165e03cfe69520) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - ci: migrate from npm token to trusted publishing
+
 ## 0.8.1
 
 ### Patch Changes

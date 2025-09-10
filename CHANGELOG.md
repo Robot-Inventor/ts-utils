@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.8.3
+
+### Patch Changes
+
+- [#156](https://github.com/Robot-Inventor/ts-utils/pull/156) [`5749d24`](https://github.com/Robot-Inventor/ts-utils/commit/5749d247fe4df7657c1d2da17998b23c6fbbecdc) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump vite from 6.3.4 to 7.1.5
+
 ## 0.8.2
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.8.4
+
+### Patch Changes
+
+- [#205](https://github.com/Robot-Inventor/ts-utils/pull/205) [`a84ede6`](https://github.com/Robot-Inventor/ts-utils/commit/a84ede6e7c505c51f6134d7f59c2c6c013dd0c3e) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump minimatch
+
 ## 0.8.3
 
 ### Patch Changes

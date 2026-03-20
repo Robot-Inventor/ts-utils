@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.8.5
+
+### Patch Changes
+
+- [#214](https://github.com/Robot-Inventor/ts-utils/pull/214) [`dbfc763`](https://github.com/Robot-Inventor/ts-utils/commit/dbfc7630f5b7107371d1ef54313b89b9f2b3f4ce) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump flatted from 3.3.1 to 3.4.2
+
 ## 0.8.4
 
 ### Patch Changes

@@ -1,4 +1,4 @@
-[**@robot-inventor/ts-utils v0.8.5**](../README.md)
+[**@robot-inventor/ts-utils v0.8.6**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isPlainObject**(`value`): `value is Record<string, unknown>`
 
-Defined in: [index.ts:10](https://github.com/Robot-Inventor/ts-utils/blob/dbfc7630f5b7107371d1ef54313b89b9f2b3f4ce/src/index.ts#L10)
+Defined in: [index.ts:10](https://github.com/Robot-Inventor/ts-utils/blob/bbc5ce83b489e7f00c49d96cb8e3e981b3177d62/src/index.ts#L10)
 
 Check if the value is a plain object.
 

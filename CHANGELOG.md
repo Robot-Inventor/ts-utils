@@ -1,5 +1,11 @@
 # @robot-inventor/ts-utils
 
+## 0.8.7
+
+### Patch Changes
+
+- [#255](https://github.com/Robot-Inventor/ts-utils/pull/255) [`6ee4a06`](https://github.com/Robot-Inventor/ts-utils/commit/6ee4a063888436ad89068c772a6c4091b18382e2) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - chore: update vulnerable dependencies
+
 ## 0.8.6
 
 ### Patch Changes

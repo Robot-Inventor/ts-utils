@@ -1,4 +1,4 @@
-[**@robot-inventor/ts-utils v0.8.6**](../README.md)
+[**@robot-inventor/ts-utils v0.8.7**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **assertType**\<`Expected`\>(`_target`): `true`
 
-Defined in: [index.ts:55](https://github.com/Robot-Inventor/ts-utils/blob/bbc5ce83b489e7f00c49d96cb8e3e981b3177d62/src/index.ts#L55)
+Defined in: [index.ts:55](https://github.com/Robot-Inventor/ts-utils/blob/ec0502a9f22a0fc0e01ab2b19cc1b312dad5d953/src/index.ts#L55)
 
 Ensures that the `_target` type is `Expected`.
 Always returns `true` at runtime. This function solely affects type checking.

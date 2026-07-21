@@ -1,4 +1,4 @@
-[**@robot-inventor/ts-utils v0.8.7**](../README.md)
+[**@robot-inventor/ts-utils v0.8.8**](../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isNonEmptyArray**\<`T`\>(`value`): `value is NonEmptyArray<T>`
 
-Defined in: [index.ts:35](https://github.com/Robot-Inventor/ts-utils/blob/ec0502a9f22a0fc0e01ab2b19cc1b312dad5d953/src/index.ts#L35)
+Defined in: [index.ts:35](https://github.com/Robot-Inventor/ts-utils/blob/52757444ac65dad4bfdb1b13526d903437c27918/src/index.ts#L35)
 
 Check if the value is a non-empty array.
 

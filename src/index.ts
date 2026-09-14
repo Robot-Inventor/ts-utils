@@ -31,7 +31,7 @@ type NonEmptyArray<T> = [T, ...T[]];
  * isNonEmptyArray([1, 2, 3]) // true
  * isNonEmptyArray([]) // false
  */
-// eslint-disable-next-line no-magic-numbers
+// oxlint-disable-next-line no-magic-numbers
 const isNonEmptyArray = <T>(value: T[]): value is NonEmptyArray<T> => Array.isArray(value) && value.length > 0;
 
 /**
@@ -51,7 +51,7 @@ type AssertType<T extends Expected, Expected> = T;
  * assertType<number>(1); // No error
  * assertType<string>(1); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
  */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-unnecessary-type-parameters
+// oxlint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
 const assertType = <Expected>(_target: Expected): true => true;
 
 export { isPlainObject, type NonEmptyArray, isNonEmptyArray, type AssertType, assertType };

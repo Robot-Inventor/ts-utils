@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/ban-ts-comment */
+/* oxlint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/ban-ts-comment */
 import { type AssertType, type NonEmptyArray, assertType } from "./index.js";
 
 type TestNonEmptyArray = AssertType<NonEmptyArray<string>, string[]>;

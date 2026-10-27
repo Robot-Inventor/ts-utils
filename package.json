@@ -2,15 +2,29 @@
   "name": "@robot-inventor/ts-utils",
   "version": "0.8.9",
   "description": "My TypeScript utilities",
-  "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/Robot-Inventor/ts-utils#readme",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/ts-utils/issues"
+  },
+  "license": "MIT",
+  "author": "Robot-Inventor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/ts-utils.git"
+  },
   "files": [
     "./dist/"
   ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "scripts": {
-    "format": "prettier --write ./src/",
-    "format:check": "prettier --check ./src/",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
     "lint": "oxlint ./src",
     "test": "tsc --project ./tsconfig.test.json --noEmit && vitest",
     "build": "tsc",
@@ -18,28 +32,14 @@
     "ci:version": "changeset version && npm run typedoc && git add .",
     "ci:publish": "npm run build && changeset publish"
   },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Robot-Inventor/ts-utils.git"
-  },
-  "author": "Robot-Inventor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Robot-Inventor/ts-utils/issues"
-  },
-  "homepage": "https://github.com/Robot-Inventor/ts-utils#readme",
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",
     "@changesets/cli": "^3.0.3",
     "@robot-inventor/oxlint-config": "^1.1.0",
     "@robot-inventor/tsconfig-base": "^7.2.0",
     "@typescript/native": "npm:typescript@^7.0.2",
+    "oxfmt": "^0.75.0",
     "oxlint": "^1.90.0",
-    "prettier": "^3.9.10",
     "typedoc": "^0.28.20",
     "typedoc-plugin-markdown": "^4.14.1",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
